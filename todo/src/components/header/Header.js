@@ -6,6 +6,7 @@ import { addNewTask } from '../../actions/Actions';
 class Header extends Component {
   state = {
     newTask: '',
+    id: Date.now(),
     completed: false,
   };
 
