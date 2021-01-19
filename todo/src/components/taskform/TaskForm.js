@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
 
+import './TaskForm.scss';
+
 const TaskForm = ({ setTask, setClear }) => {
   const [taskInput, setTaskInput] = useState('');
 
